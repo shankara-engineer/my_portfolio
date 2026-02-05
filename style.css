@@ -220,7 +220,7 @@ nav {
 
 .project-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(243, 245, 245, 0.8), 0 0 40px rgba(249, 252, 248, 0.6);
+  box-shadow: 0 0 20px rgba(243, 245, 245, 0.8), 0 0 40px rgba(57, 255, 20, 0.6);
 }
 
 .project-img {
@@ -324,11 +324,16 @@ footer {
   margin-bottom: 1rem;
   font-weight: 500;
 }
+.footer-section a{
+  text-decoration: none;
+  color: white;
+}
 
 .social-links a {
+  text-decoration: none;
   color: white;
-  margin-right: 1rem;
-  font-size: 1.5rem;
+  /* margin-right: 1rem;
+  font-size: 1.5rem; */
   transition: all 0.3s;
 }
 
